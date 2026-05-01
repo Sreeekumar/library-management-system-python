@@ -1,7 +1,7 @@
 # Library Management System
 
 ## Overview
-A Python-based application with MySQL integration to manage library operations such as book tracking, user management, and transactions. The system reduces manual work and improves efficiency.
+A Python-based application integrated with MySQL to manage library operations such as book tracking, user management, and transactions. The system reduces manual work and improves efficiency through automation.
 
 ## Features
 - Book issue and return management  
@@ -17,10 +17,29 @@ A Python-based application with MySQL integration to manage library operations s
 ## System Requirements
 - Python 3.x  
 - MySQL 8.x  
-- Windows/Linux  
+- Windows / Linux  
 
-## Working
-The system stores and manages library data using MySQL. Python handles application logic, enabling users to perform operations like issuing books, returning books, and managing records.
+## How to Run
+1. Install Python and MySQL  
+2. Install required dependency:
+   pip install mysql-connector-python  
+3. Configure MySQL database (create required tables)  
+4. Run the program:
+   python main.py  
+
+## Output
+
+### Menu Interface
+![Menu](images/menu.png)
+
+### Lend Book Function
+![Lend](images/lend.png)
+
+### Return Book Function
+![Return](images/return.png)
+
+### Database Tables (MySQL)
+![Database](images/database.png)
 
 ## Applications
 - School and college libraries  
@@ -28,5 +47,5 @@ The system stores and manages library data using MySQL. Python handles applicati
 
 ## Future Improvements
 - GUI-based interface  
-- Web-based version  
+- Web-based system  
 - Barcode integration  
